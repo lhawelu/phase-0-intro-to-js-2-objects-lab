@@ -3,7 +3,7 @@ const employee = {
     streetAddress: "1313 Perth Ct, Concord, CA 94521"
 };
 
-function updateEmployeeWithKeyAndValue(employee, streetAddress, value) {
+function updateEmployeeWithKeyAndValue (employee, streetAddress, value) {
     const newEmployee = {...employee};
     newEmployee[streetAddress] = value;
     return newEmployee;
